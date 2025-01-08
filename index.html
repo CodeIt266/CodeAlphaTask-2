@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Video Background</title>
+</head>
+<body>
+  <video autoplay muted loop id="background-video">
+    <source src="video1.mp4" type="video/mp4">
+  </video>
+    <div class="wrapper">
+        <header>Quote of the Day</header>
+        <div class="content">
+            <div class="quote-area">
+                <i class="fas fa-quote-left"></i>
+                <p id="quote" class="quote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore explicabo dolor corporis totam, nihil libero laborum earum perspiciatis sint cum fuga consectetur, magnam adipisci soluta amet veritatis a vitae quod.</p>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <div id="author" class="author"></div>
+        </div>
+        <div class="buttons">
+            <div class="features">
+                <ul>
+                    <li class="sound"><i class="fas fa-volume-up"></i></li>
+                    <li class="copy"><i class="fas fa-copy"></i></li>
+                    <li class="twitter"><i class="fa-brands fa-twitter"></i></li>
+                </ul>
+                <button id="generate">New Quote</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
